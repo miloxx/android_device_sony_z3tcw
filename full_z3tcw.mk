@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 # Inherit from z3tc device
 $(call inherit-product, device/sony/z3tcw/z3tcw.mk)
@@ -24,4 +24,4 @@ PRODUCT_NAME := full_z3tc
 PRODUCT_DEVICE := z3tc
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_MODEL := Xperia z3tc
+PRODUCT_MODEL := Xperia z3tcw
