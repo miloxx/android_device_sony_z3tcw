@@ -1,0 +1,12 @@
+# Semc
+ro.semc.version.sw=23.5.A.1.291
+ro.semc.version.cust=1289-4696
+ro.semc.version.cust_revision=23.5.A.1.291
+ro.semc.product.model=SGP611
+ro.semc.ms_type_id=PM-0810-BV
+
+# LCD
+ro.sf.lcd_density=320
+
+# USB path
+ro.usb.pid_suffix=1C0
