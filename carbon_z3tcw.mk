@@ -18,3 +18,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # force sw keys
 PRODUCT_PROPERTY_OVERRIDES += \
     qemu.hw.mainkeys=0
+
+# WiFi only Tablet
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.carrier=wifi-only \
+    ro.radio.noril=true
+
+# No Ril
+BOARD_HAVE_RADIO := false
